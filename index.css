@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.hello {
+    height: 100vh;
+    background-image: linear-gradient(135deg, purple, orange);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    width: 100vh;
+}
+
+.container {
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#todotask {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 15px 30px black;
+}
+
+#button {
+    background-image: linear-gradient(135deg, lightgreen, purple);
+    color: white;
+    border-radius: 5px;
+    right: 10%;
+    float: right;
+}
+
+#todotask input {
+    font-family: 'Poppins', Sans-Serif;
+    width: 70%;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+#tasks {
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px black;
+    width: 100%;
+    position: relative;
+}
+
+.why {
+    color: white;
+    border-radius: 5px;
+    right: 10%;
+    float: right;
+}
+
+.todocont {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: lightblue;
+    margin: 14px;
+}
